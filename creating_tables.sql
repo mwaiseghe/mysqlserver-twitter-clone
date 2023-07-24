@@ -48,6 +48,19 @@ CREATE TABLE comments (
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 
 

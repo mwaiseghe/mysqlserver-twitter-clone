@@ -1,0 +1,7 @@
+
+CREATE PROCEDURE get_user (@UserID INT)
+AS
+BEGIN
+	SELECT * FROM users WHERE UserID = @UserID;
+END
+GO

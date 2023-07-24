@@ -1,5 +1,3 @@
-USE TwitterCloneDB;
-
 CREATE PROCEDURE add_users
 (
 			@username VARCHAR, 
@@ -20,3 +18,5 @@ END
 EXEC add_users @username='Gift1', @first_name='Gift', @last_name='Mwaiseghe', @bio='Just a demo, some dummy bio', @website='itsregalo.github.io', @location='Nairobi', @is_admin=1;
 
 SELECT * FROM users;
+
+
